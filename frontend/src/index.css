@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+
+@theme {
+  --color-bg-primary:   #2c2d2f;
+  --color-bg-secondary: #232425;
+  --color-bg-card:      #313335;
+  --color-bg-hover:     #3a3b3d;
+  --color-border:       #3f4042;
+  --color-text-primary: #e4e4e7;
+  --color-text-muted:   #8b8b96;
+  --color-accent:       #6b8cff;
+  --color-accent-hover: #5a7aee;
+  --color-success:      #4ade80;
+  --color-danger:       #f87171;
+}
+
+
+body {
+  font-family: 'Gilroy', system-ui, sans-serif;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; font-size: 14px; outline: none; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #232425; }
+::-webkit-scrollbar-thumb { background: #3f4042; border-radius: 10px; }
