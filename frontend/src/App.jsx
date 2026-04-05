@@ -14,6 +14,7 @@ export default function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/master/*" element={<Master />} />
           <Route path="/billing" element={<Billing />} />
+          <Route path="/settings" element={<Navigate to="/dashboard" replace />} />
         </Routes>
       </main>
     </div>
