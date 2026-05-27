@@ -128,11 +128,9 @@ Base URL: `http://localhost:5000/api`
 ## Deployement
 
 **Frontend** : Vercel
-**Backend** : Render
-**Database** :Render PostgreSQl
+**Backend** : Railway
+**Database** :Railway PostgreSQl
 
-**Live URL:** 
+**Live URL:** https://billing-dashboard-sparsh.vercel.app/
 ---
 ## License
-
-This project was built as part of an assignment for LogiEdge Systems.
